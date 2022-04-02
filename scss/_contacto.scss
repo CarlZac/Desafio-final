@@ -1,22 +1,20 @@
-main{
-    .form{
-        section{
-            article{
-                width: 100%;
-                height: auto;
-                line-height: 5rem;
-                overflow: auto;
-                margin: 10px auto;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding: 10px;
+.form{
+    section{
+        article{
+            width: 100%;
+            height: auto;
+            line-height: 5rem;
+            overflow: auto;
+            margin: 10px auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: $textStand;
+            color: $secondaryColor;
+            legend{
+                color: $primaryColor;
+                font-family: $fontSecondary;
                 font-size: $textStand;
-                color: $secondaryColor;
-                legend{
-                    color: $primaryColor;
-                    font-family: $fontSecondary;
-                    font-size: $textStand;
-                }
             }
         }
     }

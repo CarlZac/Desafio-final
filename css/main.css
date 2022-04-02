@@ -51,28 +51,32 @@ html {
 .bgSilver {
   background-color: #879492; }
 
-header .encabezado #isologotipo {
+.encabezado #iso {
   width: 200px;
   margin-bottom: 30px; }
 
-header .encabezado #nav {
+.encabezado #nav {
   background-color: #242323;
   position: sticky; }
-  header .encabezado #nav ul li a {
+  .encabezado #nav ul li a {
     color: #BA9C53;
     text-decoration: none;
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
     margin-left: 10px; }
-    header .encabezado #nav ul li a:hover {
+    .encabezado #nav ul li a:hover {
       font-weight: 600;
       color: #879492; }
 
-@media (min-width: 368px) {
-  header .encabezado #logo {
+@media (max-width: 368px) {
+  .encabezado #iso {
     display: none; } }
 
-main .box section article {
+@media (min-width: 369px) {
+  .encabezado #logo {
+    display: none; } }
+
+.box section article {
   line-height: 5rem;
   overflow: auto;
   margin: 5px auto;
@@ -81,10 +85,10 @@ main .box section article {
   padding: 15px;
   box-sizing: border-box;
   border: solid 1.5px #879492; }
-  main .box section article img {
+  .box section article img {
     width: 90%; }
 
-main .nosotros section article {
+.nosotros section article {
   width: 70%;
   height: auto;
   line-height: 4rem;
@@ -97,7 +101,7 @@ main .nosotros section article {
   border: solid 1.5px #879492;
   background-color: #242323; }
 
-main .nosotros section div {
+.nosotros section div {
   width: 70%;
   height: auto;
   margin: 10px auto;
@@ -105,22 +109,22 @@ main .nosotros section div {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  main .nosotros section div img {
+  .nosotros section div img {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center; }
     @media (min-width: 368px) {
-      main .nosotros section div img {
+      .nosotros section div img {
         width: 90%; } }
 
-main .nosotros section .accordion-button .collapsed {
+.nosotros section .accordion-button.collapsed {
   background: #242323; }
-  main .nosotros section .accordion-button .collapsed:after {
+  .nosotros section .accordion-button.collapsed:after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); }
 
-main .form section article {
+.form section article {
   width: 100%;
   height: auto;
   line-height: 5rem;
@@ -131,12 +135,12 @@ main .form section article {
   padding: 10px;
   font-size: 1.5rem;
   color: #879492; }
-  main .form section article legend {
+  .form section article legend {
     color: #BA9C53;
     font-family: "Cinzel", serif;
     font-size: 1.5rem; }
 
-footer .pie {
+.pie {
   padding: 15px 0; }
-  footer .pie a {
+  .pie a {
     text-decoration: none; }
