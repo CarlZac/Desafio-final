@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    body{
+        background-color: #131313;
+        h1, h2, h3{
+            margin-top: 10px;
+            color: $primaryColor;
+            font-family: $fontSecondary;
+            font-size: $textLg;
+        }
+        h4{
+            font-size: $textMd;
+        }
+        p{
+            color: $secondaryColor;
+            line-height: 2rem;
+            font-size: $textMd;
+        }
+    }
+}

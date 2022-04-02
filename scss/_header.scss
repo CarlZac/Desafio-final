@@ -1,0 +1,32 @@
+header{
+    .encabezado{
+        #isologotipo{
+        width: 200px;
+        margin-bottom: 30px;
+        }
+        #nav{
+        background-color: $darkColor; 
+        position: sticky; 
+            ul{
+                li{
+                    a{
+                        color: $primaryColor;
+                        text-decoration: none;
+                        font-size: $textLg;
+                        font-family: $fontMain;
+                        margin-left: 10px;
+                        &:hover{
+                            font-weight: 600;
+                            color: $secondaryColor;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: 368px){
+            #logo{
+            display: none;
+            }
+        }
+    }    
+}

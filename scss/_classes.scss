@@ -1,0 +1,39 @@
+.btnGold{
+    background-color: $primaryColor;
+    font-family: $fontMain;
+    color: $darkColor;
+    font-size: $textMd;
+    font-weight: 600;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textGold{
+    color: $primaryColor;
+}
+
+.textSilver{
+    color: $secondaryColor;
+}
+
+.textSize{
+    font-size: $textMd;
+}
+
+.textSize2{
+    font-size: 1.3rem;
+}
+
+.bgBlack{
+    background-color: $darkColor;
+}
+
+.bgGold{
+    background-color: $primaryColor;
+}
+
+.bgSilver{
+    background-color: $secondaryColor;
+}

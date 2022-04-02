@@ -1,0 +1,19 @@
+main{
+    .box{
+        section{
+            article{
+                line-height: 5rem;
+                overflow: auto;
+                margin: 5px auto;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding: 15px;
+                box-sizing: border-box;
+                border: solid 1.5px $secondaryColor;
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
