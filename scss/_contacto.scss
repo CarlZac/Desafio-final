@@ -3,18 +3,16 @@
         article{
             width: 100%;
             height: auto;
-            line-height: 5rem;
             overflow: auto;
             margin: 10px auto;
             margin-top: 10px;
             margin-bottom: 10px;
             padding: 10px;
-            font-size: $textStand;
-            color: $secondaryColor;
+            @include texto($textStand, 5rem, $fontMain);
+            color:  map-get($map:$paleta,$key:'colorSilver');
             legend{
-                color: $primaryColor;
-                font-family: $fontSecondary;
-                font-size: $textStand;
+                color:  map-get($map:$paleta,$key:'colorGold');
+                @include texto($textStand, 3.5rem, $fontSecondary);
             }
         }
     }

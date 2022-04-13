@@ -11,21 +11,30 @@ html {
     html body h1, html body h2, html body h3 {
       margin-top: 10px;
       color: #BA9C53;
-      font-family: "Cinzel", serif;
-      font-size: 2rem; }
+      font-size: 2rem;
+      line-height: 2rem;
+      font-family: "Cinzel", serif; }
     html body h4 {
       font-size: 1.3rem; }
     html body p {
       color: #879492;
+      font-size: 1.3rem;
       line-height: 2rem;
-      font-size: 1.3rem; }
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      margin-top: 10px; }
 
-.btnGold {
+.btnGold, .btnForm {
   background-color: #BA9C53;
   font-family: "Montserrat", sans-serif;
   color: #242323;
   font-size: 1.3rem;
   font-weight: 600; }
+  .btnGold:hover, .btnForm:hover {
+    background-color: #879492; }
+
+.btnForm {
+  border-radius: 15px; }
 
 .textCenter {
   text-align: center; }
@@ -35,6 +44,14 @@ html {
 
 .textSilver {
   color: #879492; }
+
+.textIvory {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-family: "Montserrat", sans-serif; }
+  .textIvory:hover {
+    color: #242323;
+    font-weight: 600; }
 
 .textSize {
   font-size: 1.3rem; }
@@ -127,18 +144,20 @@ html {
 .form section article {
   width: 100%;
   height: auto;
-  line-height: 5rem;
   overflow: auto;
   margin: 10px auto;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   font-size: 1.5rem;
+  line-height: 5rem;
+  font-family: "Montserrat", sans-serif;
   color: #879492; }
   .form section article legend {
     color: #BA9C53;
-    font-family: "Cinzel", serif;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    font-family: "Cinzel", serif; }
 
 .pie {
   padding: 15px 0; }

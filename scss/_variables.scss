@@ -6,6 +6,14 @@ $primaryColor: #BA9C53;
 $secondaryColor: #879492;
 $darkColor: #242323;
 
+// Mapa
+
+$paleta:(
+	'colorGold': #BA9C53,
+	'colorSilver': #879492,
+	'colorDark': #242323,
+	);
+
 // Formatos de Texto
 
 $fontMain: 'Montserrat', sans-serif;
@@ -16,3 +24,11 @@ $textMd: 1.3rem;
 $textStand: 1.5rem;
 $textLg: 2rem;
 $textXl: 2.5rem;
+
+// Mixin
+
+@mixin texto($font-size, $line-height, $font-family){
+	font-size: $font-size;
+	line-height: $line-height;
+	font-family: $font-family;
+}
