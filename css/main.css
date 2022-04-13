@@ -31,6 +31,7 @@ html {
   font-size: 1.3rem;
   font-weight: 600; }
   .btnGold:hover, .btnForm:hover {
+    color: #FFFFF0;
     background-color: #879492; }
 
 .btnForm {
@@ -46,6 +47,7 @@ html {
   color: #879492; }
 
 .textIvory {
+  color: #FFFFF0;
   font-size: 1.3rem;
   line-height: 2.5rem;
   font-family: "Montserrat", sans-serif; }
