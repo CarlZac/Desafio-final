@@ -8,7 +8,15 @@ html{
     font-size: 62.5%;
     body{
         background-color: #131313;
-        h1, h2, h3{
+        h1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color:  map-get($map:$paleta,$key:'colorGold');
+            @include texto($textXl, 2rem, $fontSecondary);
+            font-weight: 600;
+        }
+
+        h2, h3{
             margin-top: 10px;
             color:  map-get($map:$paleta,$key:'colorGold');
             @include texto($textLg, 2rem, $fontSecondary);
