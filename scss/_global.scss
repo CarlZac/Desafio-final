@@ -26,7 +26,7 @@ html{
         }
         p{
             color:  map-get($map:$paleta,$key:'colorSilver');
-            @include texto($textMd, 2rem, $fontMain);
+            @include texto($textStand, 2rem, $fontMain);
             font-weight: 300;
             margin-top: 10px;
         }
