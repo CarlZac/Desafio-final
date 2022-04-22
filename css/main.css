@@ -111,7 +111,9 @@ html {
 
 @media (max-width: 368px) {
   .encabezado #iso {
-    display: none; } }
+    display: none; }
+  .encabezado .navbar-brand {
+    width: 70%; } }
 
 @media (min-width: 369px) {
   .encabezado #logo {
